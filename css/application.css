@@ -1,12 +1,29 @@
-#group-area {
+.group-area {
 	margin: 20px 0;
 }
 
-#circle-button {
+.circle-button {
+	position: absolute;
+	z-index: 2;
 	width: 25px;
 	height: 25px;
+	left: 0;
+	margin-left: -14px;
+	top: -7px;
+	bottom: -34px;
 	background: red;
 	-moz-border-radius: 25px;
 	-webkit-border-radius: 25px;
 	border-radius: 25px;
+}
+
+.slider-box {
+	width: 315px;
+	height: 15px;
+	position: relative;
+	border: 1px solid #d6d6d6;
+	background: #ffffff;
+	margin-left: 90px;
+	display: block;
+	overflow: visible;
 }
