@@ -1,0 +1,12 @@
+#group-area {
+	margin: 20px 0;
+}
+
+#circle-button {
+	width: 25px;
+	height: 25px;
+	background: red;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+}
