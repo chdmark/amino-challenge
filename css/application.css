@@ -1,0 +1,23 @@
+.group-area {
+	border: 2px solid red;
+	text-align: center;
+}
+
+
+input[type=range] {
+	-webkit-appearance: none;
+	width: 10%;
+	border-radius: 8px;
+	height: 15px;
+	border: 1px solid #bdc3c7;
+	background-color: #fff;
+}
+
+input[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background-color: red;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
